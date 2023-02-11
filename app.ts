@@ -4,6 +4,7 @@ console.log('Inicio de programa');
 let isTired = false;
 
 // if ( isTired ) {
+    // texto añadido para ver funcionalidad de git
 //     console.log('tomar café')
 
 // } else {
