@@ -1,35 +1,10 @@
-//switch Permite realizar multiples decisiones de forma limpia y eficiente 
-console.log('Inicio de programa');
 
-let isTired = false;
+let base  = 10;
+let limit = 50;
 
-// if ( isTired ) {
-    // texto añadido para ver funcionalidad de git
-//     console.log('tomar café')
 
-// } else {
-//     console.log('tomar agua')
-// }
-//if ( !isTired ){
-//   console.log('tomar agua') 
-//}
-
-let grade = 80;
-
-if ( grade >= 60){
-    console.log('El alumno aprobo la clase');
-} else if( grade >= 50 ) {
-    // if ( grade >= 50 && grade <60 ) {
-    console.log('Por Favor estudie mas');
+for( let i = 1; i <= limit; i++ ){
+    console.log( base + ' x ' + i + ' = ' + base * i )
 }
-else {
-    console.log('El alumno no aprueba la clase');
-}
-    
-
-
-    
-
-
-
-console.log('Fin del programa');
+// let i = 1;
+// while ( i <= limit )
