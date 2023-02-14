@@ -1,10 +1,10 @@
-
-let base  = 10;
-let limit = 50;
+import { addTwoNumbers } from "./helpers/math-helpers";
 
 
-for( let i = 1; i <= limit; i++ ){
-    console.log( base + ' x ' + i + ' = ' + base * i )
-}
-// let i = 1;
-// while ( i <= limit )
+
+let total = addTwoNumbers (30, 20);
+     console.log('Total: ', total );
+
+
+
+
