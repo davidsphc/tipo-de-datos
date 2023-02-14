@@ -12,11 +12,6 @@
 // console.log('Total = ', total );
 
 
-
-
-
-
-
 // let firstName = 'Juan';
 
 // greet( firstName );
